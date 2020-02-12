@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Poppins');
+
+@font-face {
+  font-family: 'Volte Rounded';
+  src: url('https://static.iyzipay.com/fonts/VolteRounded-Light.woff2') format('woff2'),
+    url('https://static.iyzipay.com/fonts/VolteRounded-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Volte Rounded';
+  src: url('https://static.iyzipay.com/fonts/VolteRounded-Regular.woff2') format('woff2'),
+    url('https://static.iyzipay.com/fonts/VolteRounded-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Volte Rounded';
+  src: url('https://static.iyzipay.com/fonts/VolteRounded-Medium.woff2') format('woff2'),
+    url('https://static.iyzipay.com/fonts/VolteRounded-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Volte Rounded';
+  src: url('https://static.iyzipay.com/fonts/VolteRounded-Semibold.woff2') format('woff2'),
+    url('https://static.iyzipay.com/fonts/VolteRounded-Semibold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Volte';
+  src: url('https://static.iyzipay.com/fonts/VolteRounded-Bold.woff2') format('woff2'),
+    url('https://static.iyzipay.com/fonts/VolteRounded-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
