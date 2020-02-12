@@ -73,4 +73,6 @@ const GithubReposContainer = styled.div`
   flex-wrap: wrap;
   justify-content: center;
   padding-top: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
 `;

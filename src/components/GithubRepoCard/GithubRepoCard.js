@@ -81,6 +81,7 @@ const Description = styled.p`
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  min-height: 12px;
 `;
 
 const Footer = styled.div`

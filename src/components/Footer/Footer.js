@@ -10,10 +10,10 @@ function Footer() {
       <Container>
         <LogoIyzico iyzicocolor="#fff" />
         <FooterText>
-          <StyledSocialIcon url="https://github.com/iyzico" fgColor="#fff" bgColor="#000"/>
-          <StyledSocialIcon url="https://www.linkedin.com/company/iyzi-payments/" fgColor="#fff"/>
-          <StyledSocialIcon url="https://www.instagram.com/iyzico/" fgColor="#fff" bgColor="#C13584"/>
-          <StyledSocialIcon url="https://twitter.com/iyzico" fgColor="#fff"/>
+          <StyledSocialIcon url="https://github.com/iyzico" fgColor="#fff" bgColor="#000" style={{ height: 36, width: 36 }}/>
+          <StyledSocialIcon url="https://www.linkedin.com/company/iyzi-payments/" fgColor="#fff" style={{ height: 36, width: 36 }}/>
+          <StyledSocialIcon url="https://www.instagram.com/iyzico/" fgColor="#fff" bgColor="#C13584" style={{ height: 36, width: 36 }}/>
+          <StyledSocialIcon url="https://twitter.com/iyzico" fgColor="#fff" style={{ height: 36, width: 36 }}/>
         </FooterText>
       </Container>
     </FooterContainer>
@@ -25,16 +25,11 @@ const FooterContainer = styled.div`
   min-height: 56px;
   display: flex;
   align-items: center;
+  justify-content: center;
   padding: 20px;
 `;
 
 const FooterText = styled.div`
-  font-family: "Open Sans", sans-serif;
-  min-height: 17px;
-  font-size: 12px;
-  font-weight: 600;
-  text-align: right;
-  color: #cdf1f6;
 `;
 
 const Container = styled.div`
@@ -42,10 +37,13 @@ const Container = styled.div`
   justify-content: space-between;
   align-items: center;
   flex-grow: 1;
+  max-width: 1200px;
 `;
 
 const StyledSocialIcon = styled(SocialIcon)`
   margin-left: 4px;
+  height: 16px;
+  width: 16px;
 `;
 
 export default Footer;

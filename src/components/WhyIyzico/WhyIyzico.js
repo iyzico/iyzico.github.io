@@ -68,7 +68,7 @@ const Title = styled.div`
 
 const Card = styled.div`
   width: 334px;
-  margin: 10px;
+  margin: 24px 10px;
 `;
 
 const CardImage = styled.div`

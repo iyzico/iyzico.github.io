@@ -22,5 +22,4 @@ function App() {
 export default App;
 
 const Container = styled.div`
-  min-width: 100vw;
 `;

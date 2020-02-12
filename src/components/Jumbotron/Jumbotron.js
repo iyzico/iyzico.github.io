@@ -7,33 +7,35 @@ import ResearcherIllustration from "../../assets/images/researcherIllustration";
 function Jumbotron(params) {
   return (
     <Container>
-      <RightContent>
-        <Title>
-          <IyzicoText>iyzico</IyzicoText> <HeartText>❤</HeartText> ’s Open
-          Source
-        </Title>
-        <Description>
-          iyzico is mostly built on free and open source software. In addition
-          to iyzico integrations we wanted to do a bit to give back to the
-          community, and here’s some of that software
-          <LanguagesContainer>
-            <StyledIcon icon="react" />
-            <StyledIcon icon="java" />
-            <StyledIcon icon="python" />
-            <StyledIcon icon="javascript" />
-            <StyledIcon icon="ruby" />
-            <StyledIcon icon="php" />
-            <StyledIcon icon="dotnet" />
-            <StyledIcon icon="css3" />
-          </LanguagesContainer>
-          <JoinUsButton href="https://iyzico.recruitee.com/" target="_blank">
-            Join Us
-          </JoinUsButton>
-        </Description>
-      </RightContent>
-      <LeftContent>
-        <ResearcherIllustration width={512} />
-      </LeftContent>
+      <Wrapper>
+        <RightContent>
+          <Title>
+            <IyzicoText>iyzico</IyzicoText> <HeartText>❤</HeartText> ’s Open
+            Source
+          </Title>
+          <Description>
+            iyzico is mostly built on free and open source software. In addition
+            to iyzico integrations we wanted to do a bit to give back to the
+            community, and here’s some of that software
+            <LanguagesContainer>
+              <StyledIcon icon="react" />
+              <StyledIcon icon="java" />
+              <StyledIcon icon="python" />
+              <StyledIcon icon="javascript" />
+              <StyledIcon icon="ruby" />
+              <StyledIcon icon="php" />
+              <StyledIcon icon="dotnet" />
+              <StyledIcon icon="css3" />
+            </LanguagesContainer>
+            <JoinUsButton href="https://iyzico.recruitee.com/" target="_blank">
+              Join Us
+            </JoinUsButton>
+          </Description>
+        </RightContent>
+        <LeftContent>
+          <ResearcherIllustration width={512} />
+        </LeftContent>
+      </Wrapper>
     </Container>
   );
 }
@@ -41,7 +43,6 @@ function Jumbotron(params) {
 export default Jumbotron;
 
 const Container = styled.div`
-  flex-direction: row;
   display: flex;
   flex: 1;
   align-items: center;
@@ -52,6 +53,16 @@ const Container = styled.div`
     padding: 24px 24px;
   }
 `;
+
+const Wrapper = styled.div`
+ flex-direction: row;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px;
+`;
+
 const Title = styled.div`
   font-size: 64px;
   @media (max-width: 768px) {
