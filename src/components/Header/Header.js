@@ -18,7 +18,7 @@ function Header(params) {
             Blog
           </MenuItem>
           <MenuItem
-            href="https://www.linkedin.com/jobs/search/?f_C=3059569&locationId=OTHERS.worldwide"
+            href="https://iyzico.recruitee.com"
             target="_blank"
           >
             Careers

@@ -10,7 +10,7 @@ function Jumbotron(params) {
       <Wrapper>
         <RightContent>
           <Title>
-            <IyzicoText>iyzico</IyzicoText> <HeartText>❤</HeartText> ’s Open
+            <IyzicoText>iyzico</IyzicoText> <HeartText>❤</HeartText> Open
             Source
           </Title>
           <Description>
@@ -27,7 +27,7 @@ function Jumbotron(params) {
               <StyledIcon icon="dotnet" />
               <StyledIcon icon="css3" />
             </LanguagesContainer>
-            <JoinUsButton href="https://iyzico.recruitee.com/" target="_blank">
+            <JoinUsButton href="https://iyzico.recruitee.com/o/senior-software-engineer-istanbul" target="_blank">
               Join Us
             </JoinUsButton>
           </Description>

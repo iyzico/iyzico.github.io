@@ -8,7 +8,7 @@ import devoxxx from "../../assets/images/devoxx.jpeg";
 function WhyIyzico(params) {
   return (
     <Container>
-      <Title>Why Join Iyzico Engineering?</Title>
+      <Title>iyzico Engineering Culture</Title>
       <CardContainer>
         <Card>
           <CardImage src={devoxxx} />
@@ -19,21 +19,20 @@ function WhyIyzico(params) {
           </CardContent>
         </Card>
         <Card>
+          <CardImage src={iyzicoTeam} />
+          <CardTitle>Freedom Under Responsibility</CardTitle>
+          <CardContent>
+            We built a working environment where team members can work
+            productively and enjoy their time.
+          </CardContent>
+        </Card>
+        <Card>
           <CardImage src={kadriyePair} />
           <CardTitle>Pair Programming</CardTitle>
           <CardContent>
             In iyzico engineering, we use pair programming practice for more
             than 4 years and it is one of the core practices in our engineering
             culture.
-          </CardContent>
-        </Card>
-
-        <Card>
-          <CardImage src={iyzicoTeam} />
-          <CardTitle>Freedom Under Responsibility</CardTitle>
-          <CardContent>
-            We built a working environment where team members can work
-            productively and enjoy their time.
           </CardContent>
         </Card>
       </CardContainer>
