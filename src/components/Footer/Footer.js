@@ -13,7 +13,7 @@ function Footer() {
           <StyledSocialIcon url="https://github.com/iyzico" fgColor="#fff" bgColor="#000" style={{ height: 36, width: 36 }}/>
           <StyledSocialIcon url="https://www.linkedin.com/company/iyzi-payments/" fgColor="#fff" style={{ height: 36, width: 36 }}/>
           <StyledSocialIcon url="https://www.instagram.com/iyzico/" fgColor="#fff" bgColor="#C13584" style={{ height: 36, width: 36 }}/>
-          <StyledSocialIcon url="https://twitter.com/iyzico" fgColor="#fff" style={{ height: 36, width: 36 }}/>
+          <StyledSocialIcon url="https://twitter.com/iyzicoeng" fgColor="#fff" style={{ height: 36, width: 36 }}/>
         </FooterText>
       </Container>
     </FooterContainer>

@@ -11,16 +11,13 @@ function Header(params) {
           <GithubItemLink href="https://github.com/iyzico" target="_blank">
             <LinkIcon /> github.com/iyzico
           </GithubItemLink>
-          <MenuItem href="https://dev.iyzipay.com" target="_blank">
+          <MenuItem href="https://dev.iyzipay.com/en" target="_blank">
             Docs
           </MenuItem>
           <MenuItem href="https://iyzico.engineering/" target="_blank">
             Blog
           </MenuItem>
-          <MenuItem
-            href="https://iyzico.recruitee.com"
-            target="_blank"
-          >
+          <MenuItem href="https://iyzico.recruitee.com" target="_blank">
             Careers
           </MenuItem>
         </Menu>
@@ -51,6 +48,7 @@ const Wrapper = styled.div`
   border-bottom: 1px solid #efefef;
   max-width: 1200px;
   width: 100%;
+  height: 100%;
 `;
 
 const Menu = styled.div`

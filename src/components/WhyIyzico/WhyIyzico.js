@@ -15,28 +15,30 @@ function WhyIyzico(params) {
           <CardTitle>Self Development</CardTitle>
           <CardContent>
             Constant improvement and challenge are the two most important
-            characteristics that define engineering at iyzico.
+            characteristics that define engineering at iyzico. We challenge
+            and learn from each other and keep up with new technologies via
+            meetups, webinars to improve ourselves.
           </CardContent>
         </Card>
         <Card>
           <CardImage src={iyzicoTeam} />
           <CardTitle>Freedom Under Responsibility</CardTitle>
           <CardContent>
-            We built a working environment where team members can work
-            productively and enjoy their time.
+            Getting things done is our motto! At iyziPark we work productively
+            while working outdoors, enjoying the gym, gaming area. Working under
+            freedom delivering responsibilities is the key at iyzico.
           </CardContent>
         </Card>
         <Card>
           <CardImage src={kadriyePair} />
           <CardTitle>Pair Programming</CardTitle>
           <CardContent>
-            In iyzico engineering, we use pair programming practice for more
-            than 4 years and it is one of the core practices in our engineering
+            We don’t take chances when it comes to coding. At iyzico we use pair
+            programming, a practice that is at the core of our engineering
             culture.
           </CardContent>
         </Card>
       </CardContainer>
-      
     </Container>
   );
 }
